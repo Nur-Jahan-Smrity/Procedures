@@ -13,11 +13,14 @@ Adding SSH Key to GitHub :
 1.	GitHub>settings>SSH and GPG keys>click new SSH Key ..
 Paste the SSh key into the key field and add title of your own.
 2.	To test the connection press : ssh -T git@github.com
+Upto this part we done the SSH work . no need to do this again and again . 
 Lets do code in VS Code and connect it with GitHUb using SSH Key :
 •	Create a repository in github and copy the path created .
 •	Go to gitbash and write – git clone link_you_copied
-•	Then write – ls
-•	Then write – cd repository_name
+•	Then write – ls (to see folder name present in that..means branch of it … )
+•	Then write – cd repository_name (to enter into the folder)
+
+This part is to create the main folder . (for example we mape a cpp folder and then put all code in that folder together…this is similar kind of that ..)
 Now we will push code in the following way : 
 Open folder of your repository from the file option then Create new file in Vscode
 Suppose we named : README.md 
@@ -33,3 +36,15 @@ Then we can write something in README.md file in VScode then check it…
 
 ALL SET NOW  >>>>>>  DONE
 
+Easy way to push file in the folder :
+Suppose you want to add a smrity.txt file or git_practise.cpp file (any type of file ). In that case you will do your work as usual and then drag that file and put it to that folder (try to keep that folder in desktop it will become easy for you)
+Then do the following step :
+•	Gitbash : cd (then drag the main folder here in which you want to push file )
+•	Gitbash : ls (it will show you the file present inside that folder )
+•	Gitbash : git status (here you may see that the file you drag in that folder that file name will appear red color for example : smrity.txt )
+•	Gitbash : git add . (add . means add all unadded file ..if you give specific file name then it will add only that one )
+•	Gitbash : git status  ( now all will appear green which means ok )
+•	Gitbash : git commit –m”write any meaningful status here ..like added new file..any imp line”
+•	Gitbash : git log ( it will show all the commited line along with date and author name )
+•	q(to come out of log you have to press q )
+•	Gitbash : git push (this is the important line ..it is used to push it into your github )
