@@ -1,0 +1,35 @@
+Git -> GitHub -> SSH
+Connecting git bash with gitHub :
+Enter git bash then press the following thing :
+1.	git config –global user.name”your github name”
+2.	git config –global user.email”email used in that github”
+3.	verify configuration by this line :  git config --global –list
+Generating SSH Key :
+1.	generate SSH key by : ssh-keygen -t rsa -b 4096 -C “your.email@example.com(your github email )”
+2.	To start SSH agent to manage SSH key press : eval "$(ssh-agent -s)"
+3.	Add SSH private key to SSH agent : ssh-add ~/.ssh/id_rsa
+4.	Copy SSH key to clipboard by writing this line (it will copy automatically .. On Windows applicable only) : clip < ~/.ssh/id_rsa.pub   
+Adding SSH Key to GitHub :
+1.	GitHub>settings>SSH and GPG keys>click new SSH Key ..
+Paste the SSh key into the key field and add title of your own.
+2.	To test the connection press : ssh -T git@github.com
+Lets do code in VS Code and connect it with GitHUb using SSH Key :
+•	Create a repository in github and copy the path created .
+•	Go to gitbash and write – git clone link_you_copied
+•	Then write – ls
+•	Then write – cd repository_name
+Now we will push code in the following way : 
+Open folder of your repository from the file option then Create new file in Vscode
+Suppose we named : README.md 
+Then we can write something in README.md file in VScode then check it…
+•	Go to gitbash again and check it by :  git status 
+( if untracked message is shown then we have to solve it )
+•	To solve it : git add README.md
+•	Again check by : git status ( now it will became tracked)
+•	Type : git commit –m”type anything by which you want to commit so that later anyone can see that and understand”
+•	Type : git log  
+(by this you can see the commit including the author name and the timing )
+•	Now each time we do anything we have to push it to GitHub to store there .. to do so type : git push origin main 
+
+ALL SET NOW  >>>>>>  DONE
+
