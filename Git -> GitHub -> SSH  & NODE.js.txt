@@ -1,4 +1,4 @@
-Git -> GitHub -> SSH
+Git -> GitHub -> SSH  & NODE.js
 Connecting git bash with gitHub :
 Enter git bash then press the following thing :
 1.	git config –global user.name”your github name”
@@ -49,3 +49,10 @@ Then do the following step :
 •	q(to come out of log you have to press q )
 •	Gitbash : git push (this is the important line ..it is used to push it into your github )
 •	After doing modification you can commit once . can’t commit multiple times after single modification . after each modification you will get 1 chance each time to commit .
+
+
+Install Node.js = install LTS type :
+•	Install Node.js …..just type next ..to check it type the following:
+•	Gitbash or git CMD : node –v (it will show you the version)
+•	Gitbash or git CMD : npm –v ( package installed or not )
+
