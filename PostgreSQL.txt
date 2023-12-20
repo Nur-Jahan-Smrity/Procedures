@@ -1,0 +1,49 @@
+PostgreSQL :
+·        After installing click on sever then it will ask for the passward(you need to remember passward because it will need in every step )
+·        Server will be connected and database will be created by default .
+·        If you expand database you will see a database called postgres is already created .
+·        If you want to create database by your own then do the following thing :
+ 
+Right click on database > create > database
+       	  
+        	Give database name as your choice …
+        	In SQL section a code will be generated automatically ….
+       	
+     	Now simply just click on save button and you will see that your database is ready …
+Now if you expand schemas you will see many other branch . Here we will getPostgreSQL :
+•	After installing click on sever then it will ask for the passward(you need to remember passward because it will need in every step )
+•	Server will be connected and database will be created by default .
+•	If you expand database you will see a database called postgres is already created . 
+•	If you want to create database by your own then do the following thing :
+ 
+
+Right click on database > create > database 
+              
+            Give database name as your choice …
+            In SQL section a code will be generated automatically ….
+            
+         Now simply just click on save button and you will see that your database is ready …
+ 
+Now if you expand schemas you will see many other branch . Here we will get table by which we can create row and column .
+ 
+Right click on table and create a table .
+ 
+To create script right click on your database > create script 
+ 
+Here you can create table manually .
+ 
+Then this page will open . Then in the query section in the last part create table . Then there you will create column as your wish . we created 2 named personsid and fullname .
+Then click on run button (but make sure you mark that particular part then run )
+ 
+Then go to table and right click on it > refresh 
+ 
+Table will be created with two column ..
+ table by which we can create row and column .
+Right click on table and create a table .
+To create script right click on your database > create script
+Here you can create table manually .
+Then this page will open . Then in the query section in the last part create table . Then there you will create column as your wish . we created 2 named personsid and fullname .
+Then click on run button (but make sure you mark that particular part then run )
+Then go to table and right click on it > refresh
+Table will be created with two column ..
+
