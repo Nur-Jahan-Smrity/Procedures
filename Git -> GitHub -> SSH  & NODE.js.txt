@@ -50,6 +50,18 @@ Then do the following step :
 •	Gitbash : git push (this is the important line ..it is used to push it into your github )
 •	After doing modification you can commit once . can’t commit multiple times after single modification . after each modification you will get 1 chance each time to commit .
 
+****************************************************************************************
+terminal => cd desktop -> to come to desktop
+cd .. -> to go back 
+ls -> to see file in that particular folder
+
+how to push file in github and push files there :
+1)open terminal in desktop then : git clone link_of_the_repository_you_created_in_github
+2)ls -> to see if files are present or not 
+3)git add . -> to add files
+4)git commit -m"destription"
+5)git push 
+*****************************************************************************************
 
 Install Node.js = install LTS type :
 •	Install Node.js …..just type next ..to check it type the following:
